@@ -11,6 +11,7 @@ main h1 {
   padding: 20px;
   margin: 0px;
   font-size: 60px;
+  text-transform: uppercase;
 
 }
 main div {
@@ -72,6 +73,7 @@ aside h1 {
 }
 nav a {
   color: #F2FFFC;
+  
 }
 ul {
   color: write;
@@ -81,6 +83,22 @@ ul li a {
 }
 .icones-sociais li {
   display: inline-block;
+}
+
+.icones-sociais a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+.github {
+  background-image: url(github.png);
+}
+.twitter {
+  background-image: url(twitter.png);
+}
+.linkedin {
+  background-image: url(linkedin.png);
 }
 
 .leia-mais {
