@@ -55,24 +55,30 @@ em {
 aside {
   background-color: #3C1D3D;
   color: #F2FFFC;
+  text-align: center;
 }
 aside h1 {
   font-size: 30px;
   margin-bottom: 25px;
+
 }
 
 footer {
   background-color: #000;
   color: #F2FFFC;
+
 }
 nav a {
   color: #F2FFFC;
 }
 ul {
-  color: pink;
+  color: write;
 }
 ul li a {
   color: inherit;
+}
+aside li {
+  display: inline-block;
 }
 
 aside a {
