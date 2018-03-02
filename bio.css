@@ -10,8 +10,13 @@ main h1 {
   text-align: center;
   padding: 20px;
   margin: 0px;
+  font-size: 60px;
 
 }
+main div {
+  padding: 30px 0;
+}
+
 div {
   width: 720px;
   margin: auto;
@@ -22,22 +27,40 @@ div {
 h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
+h2 {
+  font-size: 30px;
+}
 
 p {
   text-align: justify;
+  margin: 20px 0;
 }
 blockquote {
   background-color: #D9E5E3;
   padding: 16px;
   border: 10px solid #C2CCCA;
   width: 250px;
-  margin: 0px;
+  margin: 20px 40px;
   box-sizing: border-box;
 }
+strong {
+font-weight: bold;
+
+}
+em {
+  font-style: italic;
+}
+
+
 aside {
   background-color: #3C1D3D;
   color: #F2FFFC;
 }
+aside h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
 footer {
   background-color: #000;
   color: #F2FFFC;
